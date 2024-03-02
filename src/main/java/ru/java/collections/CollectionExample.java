@@ -6,6 +6,9 @@ public class CollectionExample {
     public static void main(String[] args) {
         // Создание списка
         List<String> list = new ArrayList<>();
+        List<String> list2 = new LinkedList<>();
+
+
         list.add("Java");
         list.add("Python");
         list.add("C++");
@@ -19,13 +22,13 @@ public class CollectionExample {
         // Создание отображения
         Map<String, Integer> map = new HashMap<>();
         map.put("One", 1);
-        map.put("Two", 2);
+        map.put("One", 2);
         map.put("Three", 3);
 
         // Итерация по списку
-        for (String item : list) {
+/*        for (String item : list) {
             System.out.println(item);
-        }
+        }*/
 
         // Итерация по множеству
         for (int num : set) {
