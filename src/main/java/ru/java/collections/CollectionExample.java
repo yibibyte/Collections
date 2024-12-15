@@ -2,6 +2,9 @@ package ru.java.collections;
 
 import java.util.*;
 
+/**
+ *  "This is Class CollectionExample"
+ */
 public class CollectionExample {
     public static void main(String[] args) {
 
