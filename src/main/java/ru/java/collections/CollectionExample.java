@@ -16,20 +16,23 @@ public class CollectionExample {
 
 
         list.add("Java");
+        list.add("Java");
+        list.add("Java");
+        list.add("Java");
         list.add("Python");
         list.add("C++");
 
         // Создание множества
-        Set<Integer> set = new HashSet<>();
-        set.add(1);
-        set.add(1);
-        set.add(1);
-        set.add(2);
-        set.add(4);
-        set.add(2);
-        set.add(3);
-        set.add(3);
-        System.out.println(set);
+        Set<Integer> setAgePerson = new HashSet<>();
+        setAgePerson.add(1);
+        setAgePerson.add(1);
+        setAgePerson.add(1);
+        setAgePerson.add(2);
+        setAgePerson.add(4);
+        setAgePerson.add(2);
+        setAgePerson.add(3);
+        setAgePerson.add(3);
+        System.out.println(setAgePerson);
 
         // Создание отображения
         Map<String, Integer> map = new HashMap<>();
@@ -38,12 +41,12 @@ public class CollectionExample {
         map.put("Three", 3);
 
         // Итерация по списку
-        for (String item : list) {
-            System.out.println(item);
-        }
+//        for (String item : list) {
+//            System.out.println(item);
+//        }
 
 //        // Итерация по множеству
-//        for (int num : set) {
+//        for (int num : setAgePerson) {
 //            System.out.println(num);
 //        }
 

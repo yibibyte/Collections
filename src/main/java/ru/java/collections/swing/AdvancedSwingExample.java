@@ -1,9 +1,9 @@
-package ru.java.collections;
+package ru.java.collections.swing;
 
 import javax.swing.*; // Импортируем Swing-компоненты
 import java.awt.*; // Для работы с компоновкой и другими графическими элементами
 import java.awt.event.*; // Для обработки событий
-import java.util.*; // Для работы с коллекциями
+
 
 /**
  * Пояснение к коду:

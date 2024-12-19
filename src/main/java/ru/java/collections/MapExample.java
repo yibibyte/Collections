@@ -44,6 +44,7 @@ public class MapExample {
         // Перебор записей в Map
         for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
             System.out.println("Слово: " + entry.getKey() + ", Количество: " + entry.getValue());
+
         }
     }
 }

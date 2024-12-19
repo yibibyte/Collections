@@ -1,4 +1,4 @@
-package ru.java.collections;
+package ru.java.collections.swing;
 
 import javax.swing.*;
 import java.awt.*;
