@@ -52,6 +52,7 @@ public class CollectionApp {
             }
         });
 
+
         // Обработчик удаления элемента
         removeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
