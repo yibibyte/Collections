@@ -12,7 +12,7 @@ public class RegistrationApp extends JDialog{
     private JTextField textField1;
     private JTextField textField2;
     private JPanel RegistrationPanel;
-    RegistrationApp(){
+    public RegistrationApp(){
         setTitle("Регистрация пользователя");
         setContentPane(RegistrationPanel);
         setSize(600, 300);
