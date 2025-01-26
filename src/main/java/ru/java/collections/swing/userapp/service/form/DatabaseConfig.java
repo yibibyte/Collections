@@ -1,4 +1,4 @@
-package ru.java.collections.swing.userapp.serviceform;
+package ru.java.collections.swing.userapp.service.form;
 
 import java.io.InputStream;
 import java.util.Properties;
