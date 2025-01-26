@@ -1,6 +1,5 @@
-package ru.java.collections.swing.userapp;
+package ru.java.collections.swing.userapp.userservice;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 

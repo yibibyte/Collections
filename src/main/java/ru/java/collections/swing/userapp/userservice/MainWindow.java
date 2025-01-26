@@ -1,17 +1,16 @@
-package ru.java.collections.swing.userapp;
+package ru.java.collections.swing.userapp.userservice;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AuthWindow extends JFrame implements ActionListener {
+public class MainWindow extends JFrame implements ActionListener {
 
     private JButton loginButton;
     private JButton registerButton;
-    RegistrationApplication registrationApplicatio;
 
-    public AuthWindow() {
+    public MainWindow() {
         super("Авторизация / Регистрация");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 150);
@@ -54,6 +53,6 @@ public class AuthWindow extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(AuthWindow::new);
+        SwingUtilities.invokeLater(MainWindow::new);
     }
 }
